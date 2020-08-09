@@ -55,3 +55,58 @@ body{
 .black.active{
     background-color: #333;
 }
+
+
+@media screen and (max-width:850px){
+    .white{
+        --width:60px;
+        background-color: white;
+        border: 1px solid #333;
+        border-radius: 0 0 6px 6px;
+    }
+
+    .black{
+        --width:30px;
+        background-color: black;
+        border: 1px solid #333;
+        margin-left: calc(var(--width) / -2);
+        margin-right: calc(var(--width) / -2);
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width:630px){
+    .white{
+        --width:50px;
+        background-color: white;
+        border: 1px solid #333;
+        border-radius: 0 0 6px 6px;
+    }
+
+    .black{
+        --width:25px;
+        background-color: black;
+        border: 1px solid #333;
+        margin-left: calc(var(--width) / -2);
+        margin-right: calc(var(--width) / -2);
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width:430px){
+    .white{
+        --width:30px;
+        background-color: white;
+        border: 1px solid #333;
+        border-radius: 0 0 6px 6px;
+    }
+
+    .black{
+        --width:15px;
+        background-color: black;
+        border: 1px solid #333;
+        margin-left: calc(var(--width) / -2);
+        margin-right: calc(var(--width) / -2);
+        z-index: 1;
+    }
+}
